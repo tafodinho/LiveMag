@@ -1,0 +1,2 @@
+# LiveMag
+An online magazine
