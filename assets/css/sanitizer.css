@@ -30,7 +30,9 @@ ul {
 }
 
 .container {
+    width: 80%;
     margin: 0 auto;
+    height: auto;
 }
 
 blockquote, 
@@ -60,8 +62,8 @@ table {
     box-sizing: border-box;
 }
 /* every column should be a child of grid */
-.grid.after,
-.fix-float {
+.grid::after,
+.fix-float::after {
     content: "";
     display: table;
     clear: both;
@@ -136,7 +138,4 @@ table {
 }
 .col-1-11 {
     width: 9.09%;
-}
-.col-1-12 {
-    width: 8.33%;
 }
