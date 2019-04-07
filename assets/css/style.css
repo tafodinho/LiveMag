@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
 .nav-section,
 .post-article .caption,
-.post-article .caption p::after {
+.post-article .caption p::after,
+.footer-container {
     margin: 0 auto;
 }
 header.header {
@@ -157,4 +158,50 @@ section.video {
     font-size: 24px;
     margin-bottom: 6px;
     margin-top: 10px;
+}
+.brand-1 .big-picture,
+.brand-2 .big-picture {
+    height: 0;
+    padding-top: 50%;
+    background: orange;
+    position: relative;
+}
+.brand-1,
+.brand-2 {
+    margin-top: 2%;
+    margin-bottom: 15%;
+}
+.big-picture .big-picture-caption {
+    width: 80%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -25%;
+    border: solid #fae54c;
+    margin: auto;
+    padding: 40px 40px 40px 40px;
+    background: white;
+    text-align: center
+}
+.big-picture .big-picture-caption h1 {
+    text-decoration: underline;
+    text-decoration-color: #fae54c;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+footer {
+    border-top: solid #555555 1px;
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer-container {
+    width: 60%;
+    font-size: 14px;
+}
+footer .lower-section p {
+    font-size: 12px;
+    line-height: 20px;
 }
