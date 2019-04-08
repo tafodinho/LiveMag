@@ -31,6 +31,22 @@ header.header {
 .nav-section .left {
     float: left;
 }
+.nav-section .left, li .right, li {
+    font-size: 1.2vw;
+}
+@media only screen and (max-width: 980px) {
+    /* For mobile phones: */
+    /* 768px */
+    .nav-section .left, li .right, li {
+        font-size: 1.3vw;
+    }
+    .nav-section {
+        margin: 0 auto;
+    }
+    .nav-section ul li{
+        display: block;
+    }
+  }
 .nav-section .right {
     float: right;
 }
