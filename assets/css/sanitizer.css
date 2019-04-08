@@ -139,3 +139,9 @@ table {
 .col-1-11 {
     width: 9.09%;
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
